@@ -1,0 +1,234 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+
+
+nav {
+    background: rgb(41,36,134);
+    background: linear-gradient(90deg, rgba(41,36,134,1) 0%, rgba(45,42,199,1) 23%, rgba(9,9,121,1) 54%, rgba(20,115,213,1) 74%, rgba(0,212,255,1) 100%); 
+    flex: 0.05;
+}
+
+nav > div {
+    background-color: rgba(0,0,0, 0.8);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#main-menu {
+    display: flex;  
+    align-items: center;
+    margin: 0;
+}
+
+#main-menu > li {
+    margin-left:  clamp(18px, 2.2vw, 42px);
+    margin-right:  clamp(18px, 2.2vw, 42px);
+    list-style-type: none;
+}
+
+#main-menu > li > a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.content {
+    background-color: rgba(0,0,0, 0.6);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.bg-filter-1 {
+    background-color: rgba(0,0,0, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Ai {
+    width: 256px;
+}
+
+.logo-top {
+    width: 100px;
+    position: relative;
+    margin: 24px
+}
+
+.title {
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.title > span {
+    background: -webkit-linear-gradient(0deg,#6500a8, #660979, #bd08e3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-content {
+    position: relative;
+    left: 128px;
+    bottom: 64px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:aliceblue;
+    width: 548px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content > p {
+    font-size: 36px;
+    color:aliceblue;
+}
+
+.border {
+    width: 464px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 64px;
+}
+
+.descrip {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.bg-container {
+    height: 100%;
+    background-image: url("https://images.entertainment.ie/media/original_s76eYQi6hcAcOVYpVd9hofdyt11.jpg?w=1280&h=768&q=high");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    flex:0.95;
+}
+
+.section-1 {
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.section-2 {
+    background: rgb(41,36,134);
+    background: linear-gradient(90deg, rgba(41,36,134,1) 0%, rgba(45,42,199,1) 23%, rgba(9,9,121,1) 54%, rgba(20,115,213,1) 74%, rgba(0,212,255,1) 100%); 
+height: 100vh;
+color: aliceblue;
+}
+
+.bg-filter-2 {
+    background-color: rgba(0,0,0, 0.8);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly  ;
+}
+
+
+
+.about-1 {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.Ai-2 {
+    border-radius: 12px;
+    width: 500px;
+}
+
+.about-1 > p {
+    font-size: 32px;
+    margin-left: 32px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.about-2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.about-2 > p {
+    font-size: 32px;
+    margin-right: 32px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.border-2 {
+    width: 1600px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 64px;
+    align-self: center;
+    margin: 0;
+}
+
+.section-3 {
+    height: 100vh;
+    background-image: url("https://images.entertainment.ie/media/original_s76eYQi6hcAcOVYpVd9hofdyt11.jpg?w=1280&h=768&q=high");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.bg-filter-3 {
+    background-color: rgba(0,0,0, 0.8);
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-content > span {
+    font-size: 36px;
+    
+}
+
+.section-3-content {
+    color: aliceblue;
+    font-size: 64px;
+    font-weight: lighter;text-align: center;
+}
+
+.netflix {
+    width: 400px;
+    
+}
+
+.footer {
+    font-size: 16px;
+    position: relative;
+    top: 148px;
+    color: aliceblue;
+}
